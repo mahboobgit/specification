@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Specifications
 {
-    public interface ISpecification<T> where T : class 
+    public interface ISpecification<T>
     {
         bool IsSatisfied(T candidate);
 

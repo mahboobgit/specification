@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Specifications
+namespace Specifications.Framework
 {
     public class AndSpecification<T> : CompositeSpecification<T>
     {

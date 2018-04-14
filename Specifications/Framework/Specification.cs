@@ -1,4 +1,6 @@
 ﻿using System;
+using Specifications.Framework;
+
 namespace Specifications
 {
     public abstract class Specification<T> : ISpecification<T>

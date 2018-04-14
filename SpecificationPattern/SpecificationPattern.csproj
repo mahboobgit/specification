@@ -35,5 +35,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Specifications\Specifications.csproj">
+      <Project>{F52B6E24-5CA5-4441-AA3E-7325CA8445F5}</Project>
+      <Name>Specifications</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

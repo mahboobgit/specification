@@ -37,9 +37,16 @@
     <Compile Include="Framework\Specification.cs" />
     <Compile Include="Framework\OrSpecification.cs" />
     <Compile Include="Framework\NotSpecification.cs" />
+    <Compile Include="RuleEngine\HiValueSpecification.cs" />
+    <Compile Include="Models\Order.cs" />
+    <Compile Include="RuleEngine\OrderInStock.cs" />
+    <Compile Include="RuleEngine\HazardousSpecification.cs" />
+    <Compile Include="RuleEngine\RushOrderSpecification.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Framework\" />
+    <Folder Include="RuleEngine\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

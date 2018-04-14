@@ -5,7 +5,7 @@ namespace Specifications.Framework
     {
         ISpecification<T> _entity;
 
-        public NotSpecification(ISpecification<T> entity)
+        public NotSpecification(ISpecification<T> entity) 
         {
             _entity = entity;
         }
