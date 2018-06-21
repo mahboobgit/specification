@@ -1,1 +1,3 @@
-# specification
+# Specification Pattern
+
+Sample project.
